@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abilisheesh</title>
+    <link rel="stylesheet" href="pimpi.css">
+
+</head>
+<body class="multipage progress">
+    <div class="banner"> <div class="insidebanner">FPSheesh</div>
+    <div class="titlebanner"> <a  href="presentation.html"><button class=" butttop"  >What is FPSheesh ?</button></a>
+       <a  href="use.html"><button class=" butttop"  >What we used</button></a>
+           <div class="dropdowntop">
+           <button class="  butttop dropdowntop">How it is going</button> 
+               <div class="dropdowntop-content">
+               <a href="playermouvement.html">Player movement</a>
+               <a href="abilites.html">Abilisheesh</a>
+               <a href="multi.html">Multiplayer</a>
+               <a href="UI.html">UI & SFX</a>
+               <a href="AI.html">AI</a>
+               <a href="maps.html">Maps & 3d Modeling</a>
+               </div>
+           </div></div></div> 
+           <h2>Multiplayer</h2>
+    <a class="back"href="index.html"><img src="../logosite.png" width="40" alt=""></a>
+
+    <div class="presentation">
+        Playing with other people makes a video game more fun, and it is even more important for a FPS.
+        <br> So we need to create lobbies : a place where users connect to different rooms to join others. A server will need to be hosted by a Master Client for clients to receive information from the Master Client through the server. Each player will need a nickname for others to see.
+To set up our servers we will be using a unity asset : Photon Pun 2 which is a free asset to have multiplayer servers.
+   </div>
+   <div class="columns">
+    <div class="column2">
+        <div class="inside"> <h3>First Defense : </h3> 
+            We had planned to have 50% of the multiplayer done for this defense. To do that, Charlotte created two options to start the game : finding an existing room where other players are, or to create one that people can join.
+If the player wants to find a room, he clicks on the button “find room” and a list of rooms pops up, and all he has to do is click on it. A list of all the players in this room appears and only the host (the one who created this room) can start the game.
+On the other hand, if he wants to create a new room, he names it and his name appears on the list of players, now other people can join and he decides when the game starts. <br><br>
+Now, if the host quits the game, the role of host is assigned to someone else and they are now in charge of starting the games.
+To do that, we used Photon 2 in unity and thanks to a tutorial we created those options. One issue was to implement it for the players, as the player movements were already coded and func- tioning but we managed to put the two together which enabled us to have several players in the map.  <br>
+We can now launch the game on unity and build and run at the same time which represent two players. One creates a room and the other joins it.
+         </div>
+        </div>
+       
+    <div class="column2">
+        <div class="inside"><h3> Second Defense :</h3>
+            For this second defense, we had planned to complete the multiplayer part up to 90\%. <br><br> It was mostly completed by the first defense, all there was to do was solve a few issues with making the player see and interact with each other.
+            <br><br> Now that this is resolved, we can launch the game on several computers. One creates a room and the others join it, then when the game start,all the players in the map and can see and shoot each other. If one dies, this player respawns in the map and the game continues.</div>
+</div>
+        </body>
